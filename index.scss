@@ -1,0 +1,58 @@
+@import 'variables';
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: $gray-200;
+}
+section{
+    width: 45%;
+    height: auto;
+    background-color: $gray-100;
+    border-radius: 15px;
+}
+header{
+    padding: 1rem 2rem;
+    border-bottom:1px solid $gray-200 ;
+}
+.buttons{
+    display: flex;
+    border-radius: 10px;
+    background-color: $gray-200;
+    justify-content: space-between;
+  
+}
+button {
+    svg{
+    padding-right: 4px;
+    width: 30px;
+    }
+border: none;
+display: flex;
+align-items: center;
+background-color: transparent;
+font-size: 18px;
+ color: $gray-300;
+} 
+.active{
+   border-radius: 7px;
+   background-color: $gray-100;
+   margin: 0.2rem;
+   color: $gray-400;
+}
+ul{
+    
+    list-style-type: none;
+}
+li{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    svg{
+    width: 30px;
+    padding-right: 10px ;
+    }
+}
